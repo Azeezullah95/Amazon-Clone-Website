@@ -1,0 +1,70 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.main_content{
+    min-height:75vh;
+    width:100%;
+    background-color:blue;
+}
+.main_content_hero-img{
+    height:520px;
+    width:100%;
+    position:relative;
+    z-index:1;
+}
+.hero_img{
+     background-image:url("MAY26_PC_Static_Sale-is-live-D1_NP__V2_1x_rev1._CB762789466_.jpg");
+    height:520px;
+    width:100%;
+    background-size:cover;
+    position:relative;
+    z-index:1;
+}
+.main_content_products{
+    height:850px;
+    width:100%;
+    background:linear-gradient(rgb(255, 111, 0) 70%,yellow);
+    position:relative;
+    z-index:2;
+    margin-top:-250px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.products{
+    height:90%;
+    width:90%;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-items:center;
+    background-color:white;
+}
+.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8{
+    height:350px;
+    width:300px;
+    background-color:white;
+    border:2px solid black;
+    margin-top:15px;
+    text-transform:capitalize;
+    font-size:larger;
+    font-weight:bold;
+    flex-direction:column;
+    display:flex;
+    align-items:center;
+    box-shadow:0 0 20px rgba(0,0,0,1);
+}
+.home_img,.mobile_img,.furniture_img,.ele_img,.beauty_img,.pet_img,.toy_img,.cloth_img{
+    height:250px;
+    width:80%;
+    background-color:red;
+    background-size:cover;
+    border:1px solid black;
+    box-shadow:0 0 20px rgba(0,0,0,1);
+}
+#imgs{
+    height:250px;
+    width:100%;
+}
+ 
